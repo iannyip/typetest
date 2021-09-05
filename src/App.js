@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* <header className="App-header">
+        
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and saWhatttt.
         </p>
         <a
           className="App-link"
@@ -17,7 +17,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <div className="container mx-auto App-body">
+        <img src={logo} className="App-logo" alt="logo" />
+        <div id="top">Type Test</div>
+        <div id="middle">Middle</div>
+        <div id="bottom">Bottom</div>
+      </div>
     </div>
   );
 }
